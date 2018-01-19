@@ -1,13 +1,11 @@
 ---
 layout: essay
 type: essay
-title: Road to the Top: Software Engineering
+title: Igniting the fire
 # All dates must be YYYY-MM-DD format!
-date: 2017-01-18
+date: 2015-08-26
 labels:
-  - Software Development
-  - C#
-  - C
+  - Software Engineering
 ---
 
 Initially, I had started to code just for the sake of changing things to be the way I wanted it to be. I do not want to say what it was I was changing, however, there was code with logic that I did not agree with and I had the opportunity to change it to the way I saw fit as the source code was available to me. This was the very beginning to my exposure to anything related to code. It was a daunting task because at the time, I had no prior knowledge to it. I began my task by simply looking at the various parts of the code and figuring out what each thing did. This was a time consuming task, however, in the end I was able to make my way through it, more or less, through trial, error and research. I was able to implement my knowledge, successfully, as the things I wanted to do focused more on simple logic than anything complex. The language that I was experimenting with at that time was C#.
