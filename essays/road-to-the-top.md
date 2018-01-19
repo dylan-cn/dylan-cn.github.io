@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Igniting the fire
+title: Road to the top... Software Engineering
 # All dates must be YYYY-MM-DD format!
 date: 2015-08-26
 labels:
