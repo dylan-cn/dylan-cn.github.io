@@ -13,7 +13,7 @@ labels:
 summary: A tower defense game built using EZ Graphics.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img src="../images/td_pic.PNG">
 
 A demo of the game can be found on YouTube, <a href="https://youtu.be/x2SDYRLFoWw"></i>here</a>
 
