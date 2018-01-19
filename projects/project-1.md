@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/mo_tn.PNG
+image: images/mo_tn_500x500.PNG
 title: Music Organizer
 permalink: projects/organizer
 # All dates must be YYYY-MM-DD format!
