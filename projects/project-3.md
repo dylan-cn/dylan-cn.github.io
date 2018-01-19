@@ -12,7 +12,7 @@ labels:
 summary: A simple server and client implementation
 ---
 
-<img src="../images/server_pic.PNG">
+<img src="../images/server_pic_small.PNG">
 
 Initially, I wanted to figure out how games sent data from client to server and then from server to client. The scope of detail was out of my knowledge. So, I ended up searching up details on how to just simply send data between the two, the server and the client. This eventually lead me to implementations that utilized sockets. This was a perfect solution for what I wanted to accomplish. By looking at various implementations and modifying them to be used with what I had.
 
