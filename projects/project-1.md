@@ -11,10 +11,13 @@ labels:
 summary: A very simplistic program made for the purpose of testing manipulation of files and directories.
 ---
 
-<div class="ui small rounded images">
+<!--<div class="ui small rounded images">
   <img class="ui image" src="../images/mo_log.PNG">
   <img class="ui image" src="../images/mo_confirm.PNG">
-</div>
+</div>-->
+
+<img class="ui image" src="../images/mo_log.PNG">
+<img class="ui image" src="../images/mo_confirm.PNG">
 
 The purpose of creating this project was for me to test file manipulation. The way I went about doing this was to use it to organize my music library such that each folder would be moved to a folder titled with the artist's name. This would allow me to consistently add new albums to the organized folder with each album grouped by the various artists. It should be said that because of the way I name folders, the specifics of the program were written specifically for myself. It is not directed towards a general audience.
 
