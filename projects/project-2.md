@@ -1,25 +1,63 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/td_pic.PNG
+title: Tower Defense
+permalink: projects/towerdefense
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2017-05-01
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Java
+  - EZ
+  - Game
+summary: A tower defense game built using EZ Graphics.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+A demo of the game can be found on YouTube, <a href="https://youtu.be/x2SDYRLFoWw"></i>here</a>
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+This tower defense game was the final project that my team and I submitted for ICS 111. It was coded in Java with the assistance of the EZ Graphics library. Given the amount of time allotted for this project, there were things that had to be left out. For example, the game balancing of unit health and tower damage may not have been scaled correctly. However, despite this, the end result was a success. All of the major elements worked, such as unit and tower creations. The game focused on the aspect that enemies were infinitely spawned in a single wave, on a timer. A map would be randomly created with objects that would block the creation of towers. The player could place towers where they pleased, as long as it did not interfere with the ending path of the enemy units. The player earned currency as they killed enemies, allowing them to upgrade towers. The player lost when a certain amount of enemy units reached the ending point of their path.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+Many of the roles for this project became intertwined and as such, many of the aspects were worked on by everyone. A part that I took a big role in was the management of the projectiles created by the towers. There were various towers, such as ice and fire. For each type of tower, a different project had to be made. Many projectiles were animated and given after effects through the use of various sprites. To help reduce the need for creating new projectiles, old ones were cached until they were needed again, at which point they were reused. 
+
+Through this project, the main things that I gained from it was the concept of finite state machines. This concept was used to update the various aspects of the game. For example, if a game was started, then only the game logic is updated. When the player lost, the game state would then change and the game logic would no longer be executed until a new game was made.
+
+The following snippet of code was used to control which aspects of the game was updated depending on the given state.
+
+```Java
+while (true)
+{
+  switch (gsm.getState())
+  {
+    case NewGame:
+      EZ.removeAllEZElements();
+      game = new Game(EZ_WIDTH, EZ_HEIGHT, CELL_SIZE, gsm);
+      gsm.setState(GameState.Game);
+      break;
+
+    case MainMenu:
+      EZ.refreshScreen();
+      menu.update();
+      break;
+
+    case Game:
+    case Pause:
+      game.update();
+      break;
+      
+    case EndScreen:
+      endScreen.update();
+      break;
+
+    case Exit:
+      System.exit(0);
+      break;
+
+    default:
+      break;
+  }
+}
+```
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: The source can be found <a href="https://bitbucket.org/dylancn/ics111_project3/src/b8392020a58b4ae84a24588040a8364a5c3e51ef/Project3_Demo/src/?at=combined"></i>here</a>
