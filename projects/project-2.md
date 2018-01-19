@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/td_pic.PNG
+image: images/td_tn_500x500.PNG
 title: Tower Defense
 permalink: projects/towerdefense
 # All dates must be YYYY-MM-DD format!
