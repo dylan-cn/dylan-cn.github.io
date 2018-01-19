@@ -8,8 +8,6 @@ labels:
   - Software Development
 ---
 
-<img class="ui tiny right spaced image" src="../images/degree_difficulty.jpg">*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
-
 Initially, I had started to code just for the sake of changing things to be the way I wanted it to be. I do not want to say what it was I was changing, however, there was code with logic that I did not agree with and I had the opportunity to change it to the way I saw fit as the source code was available to me. This was the very beginning to my exposure to anything related to code. It was a daunting task because at the time, I had no prior knowledge to it. I began my task by simply looking at the various parts of the code and figuring out what each thing did. This was a time consuming task, however, in the end I was able to make my way through it, more or less, through trial, error and research. I was able to implement my knowledge, successfully, as the things I wanted to do focused more on simple logic than anything complex. The language that I was experimenting with at that time was C#.
 
 At some point, I eventually had taken a class for C and I was able to understand many things, disregarding the syntax and just the fundamental way of how C handles code vs how C# handles code. For example, C# has more or less automatic memeory management while C does not. However, through the class that I took for C, I was able to further my understanding and correct my misunderstandings of various coding concepts.
