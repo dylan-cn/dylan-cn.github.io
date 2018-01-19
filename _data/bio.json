@@ -25,16 +25,6 @@
         "username": "dylannakamoto",
         "url": "https://www.linkedin.com/in/dylan-nakamoto-b568b5156/"
       },
-      {
-        "network": "twitter",
-        "username": "",
-        "url": ""
-      },
-      {
-        "network": "instagram",
-        "username": "",
-        "url": ""
-      }
     ]
   },
   "interests": [
@@ -84,7 +74,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Fall, 2020)",
       "studyType": "B.S.",
       "startDate": "2013-09-01",
       "endDate": "Present",
