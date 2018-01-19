@@ -2,15 +2,13 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+title: Music Organizer
+permalink: projects/organizer
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2017-07-18
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - C#
+summary: A very simplistic program made for the purpose of manipulating files and directories.
 ---
 
 <div class="ui small rounded images">
@@ -26,19 +24,23 @@ For this project, I was the lead programmer who was responsible for programming 
 
 Here is some code that illustrates how we read values from the line sensors:
 
-```js
-byte ADCRead(byte ch)
+```C#
+try
 {
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
+    foreach (var FileItem in Directory.EnumerateFiles(MovePath))
+    {
+        Log("Deleting file: " + FileItem);
+        File.Delete(FileItem);
     }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+
+    Log("Deleting folder: " + MovePath);
+    Directory.Delete(MovePath);
+}
+catch(Exception ex)
+{
+    LogAndShow("Error deleting: " + MovePath, ex);
 }
 ```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
 
 
