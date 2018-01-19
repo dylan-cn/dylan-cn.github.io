@@ -1,61 +1,21 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/server_tn_500x500.PNG
+title: Server / Client
+permalink: projects/server
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2017-05-29
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Java
+  - EZ
+summary: A simple server and client implementation
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img src="../images/server_pic.PNG">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+Initially, I wanted to figure out how games sent data from client to server and then from server to client. The scope of detail was out of my knowledge. So, I ended up searching up details on how to just simply send data between the two, the server and the client. This eventually lead me to implementations that utilized sockets. This was a perfect solution for what I wanted to accomplish. By looking at various implementations and modifying them to be used with what I had.
 
-To give you a flavor of the game, here is an excerpt from one run:
+In the picture above, we see three command prompts. The top most command prompt was used to execute the server program and the bottom two are the clients connecting to the server. Since I do not have access to multiple internet connections, I simply used localhost as the server address. I used EZ Graphics as a simple way to visualize the objects that I was sending and receiving. One line was drawn in the top client and another using the bottom client. This can be seen by looking at the top most command prompt, the server, and seeing that a connection from a different port was in fact receiving objects from the connection on the other port. In this case the two connections were on 127.0.0.1:50455 and 127.0.0.1:50449. We also see that from the client command prompts, the clients were sending out data to the server.
 
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+The implementation that I utilized might not be the most optimal, especially considering that this was being executed on the same connection. I do not know what the effects are if data is lost in transmission and so forth. However, I was able to get an implementation working that sent out line objects to the server and to the other client and thus keeping the picture seen on each client to be the same.
