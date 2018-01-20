@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Road to the top... Software Engineering
 # All dates must be YYYY-MM-DD format!
-date: 2017-01-17
+date: 2018-01-18
 labels:
   - Software Engineering
 ---
