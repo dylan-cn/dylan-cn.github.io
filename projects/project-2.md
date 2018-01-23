@@ -15,7 +15,7 @@ summary: A tower defense game built using EZ Graphics.
 
 <img src="../images/td_pic.PNG">
 
-A demo of the game can be found on YouTube, <a href="https://youtu.be/x2SDYRLFoWw"></i>here</a>
+A demo of the game can be found on YouTube, <a href="https://youtu.be/x2SDYRLFoWw">here</a>
 
 This tower defense game was the final project that my team and I submitted for ICS 111. It was coded in Java with the assistance of the EZ Graphics library. Given the amount of time allotted for this project, there were things that had to be left out. For example, the game balancing of unit health and tower damage may not have been scaled correctly. However, despite this, the end result was a success. All of the major elements worked, such as unit and tower creations. The game focused on the aspect that enemies were infinitely spawned in a single wave, on a timer. A map would be randomly created with objects that would block the creation of towers. The player could place towers where they pleased, as long as it did not interfere with the ending path of the enemy units. The player earned currency as they killed enemies, allowing them to upgrade towers. The player lost when a certain amount of enemy units reached the ending point of their path.
 
@@ -35,29 +35,20 @@ while (true)
       game = new Game(EZ_WIDTH, EZ_HEIGHT, CELL_SIZE, gsm);
       gsm.setState(GameState.Game);
       break;
-
-    case MainMenu:
-      EZ.refreshScreen();
-      menu.update();
-      break;
+    ...
 
     case Game:
     case Pause:
       game.update();
       break;
-      
-    case EndScreen:
-      endScreen.update();
-      break;
-
+    ...
+  
     case Exit:
       System.exit(0);
       break;
-
-    default:
-      break;
+    ...
   }
 }
 ```
  
-Source: The source can be found <a href="https://bitbucket.org/dylancn/ics111_project3/src/b8392020a58b4ae84a24588040a8364a5c3e51ef/Project3_Demo/src/?at=combined"></i>here</a>
+Source: can be found <a href="https://bitbucket.org/dylancn/ics111_project3/src/b8392020a58b4ae84a24588040a8364a5c3e51ef/Project3_Demo/src/?at=combined">here</a>
