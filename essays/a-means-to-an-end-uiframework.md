@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: A Means To An End: UI Frameworks
+title: A Means To An End... UI Frameworks
 # All dates must be YYYY-MM-DD format!
 date: 2018-02-22
 labels:
