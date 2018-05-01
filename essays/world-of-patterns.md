@@ -9,10 +9,6 @@ labels:
   - Design Patterns
 ---
 
-<h1 align="center">
-  <b>A World Full of Patterns</b>
-</h1>
-
 In our everyday world, we can spot patterns in the many things around us. If you have a dog or a cat, there may be a pattern that can be found in their fur. You may even find patterns in the coats of many animals, such as tigers and zebras. We also see patterns in the way that city blocks are laid out. We even see it in the scales of the vast array of fishes in the sea. Beyond all of this, one may not realize it, but there's a pattern to our everyday life. Once we wake up, we follow our routine to get ready for the day ahead of us. We see patterns in our lives every day, regardless of whether or not we realize it.
 
 <img src="../images/pattern-tiger.png" />
