@@ -5,7 +5,7 @@ image: images/wwtn.png
 title: Washer Watcher
 permalink: projects/washerwatcher
 # All dates must be YYYY-MM-DD format!
-date: 2018-05-9
+date: 2018-05-09
 labels:
   - Web App
   - Javascript
