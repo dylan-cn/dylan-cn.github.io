@@ -15,7 +15,7 @@ labels:
 summary: A web application with the purpose of letting others know when washing machines were available for use.
 ---
 
-<img class="ui image" src="../images/wwlanding.PNG">
+<img class="ui image" src="../images/wwlanding.png">
 
 This website was created with the intention of helping the students living in the University of Hawaii at Manoa dorms. This website allows for washing machines to be added to specific dorms. Then, anyone who uses a machine can update the status so that other people know whether or not they could walk down to the laundry room and be able to use a washing machine right then and there. You can find more information about this project on the <a href="https://washerwatcher.github.io/">GitHub page.</a>
 
@@ -23,7 +23,7 @@ On this project, the core issues that I was involved with included the creation 
 
 The one thing that I found really interesting was the implementation of the resposive navbar. The navbar appears in full as long as it can display all the elements on it and then collapses to a clickable menu once the width becomes too small. It was surprisingly easy to implement once I found out the necessary information. All that was really necessary was to listen to the resize event and then render a different componenet based on the size. Perhaps the method I used may not be the best solution, however, it was an easy one to implement with the knowledge that I had.
 
-<img class="ui image" src="../images/wwnavbar.PNG">
+<img class="ui image" src="../images/wwnavbar.png">
 <p>
   The collapsed version of the navbar.
 </p>
