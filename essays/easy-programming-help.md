@@ -10,7 +10,13 @@ labels:
   - How-to
 ---
 
-In our adventure in coding software, we will almost always hit a spot where we might get stuck and need a bit of help. We try, vigorously, to find a solution to our answers. We go to utilize Google search, trying every possible combination of words that might get us to our answer, however, to no avail. We try to search for any possible hint that could point us in the right direction, however, we may have a niche situation that may not be readily available. At this point, we have only one solution to help alleviate the issue, and that's to go out and ask the question to other people. This is where things may get a bit unwieldy. 
+<img src="../images/question.png" />
+<br/>
+
+In our adventure in software development, we will almost always hit a spot where we might get stuck and need a bit of help. We try, vigorously, to find a solution to our answers. We go to utilize Google search, trying every possible combination of words that might get us to our answer, however, to no avail. We try to search for any possible hint that could point us in the right direction, however, we may have a niche situation that may not be readily available. At this point, we have only one solution to help alleviate the issue, and that's to go out and ask the question to other people. This is where things may get a bit unwieldy. 
+
+<img src="../images/sof.png" />
+<br/>
 
 When we try to ask a question to the the masses and the perhaps more experienced people, it's of the utmost importance that we ask questions in a smart way. By asking a question, one not only uses their own time, but also the time of the person that reads it. When a problem needs to be solved, it should be solved in the most efficient manner possible. This can be achieved by being as detailed as possible without writing a story. Be concise with your architecture, issues, and what the outcome should be. One should also briefly go over some of the solution that they tried as to eliminate any unnecessary work. Most importantly, write your question so that they are not a pain to read because someone who's using their own time will not waste it just trying to decode your question.
 
