@@ -8,6 +8,9 @@ labels:
   - Software Engineering
 ---
 
+<img src="../images/robot.png" />
+<br/>
+
 I have a particular interest in game automation. It was the idea that the game was designed for a human but could a computer do it better. This was one of the most prominent reasons that allured me into learning how to write code. At the beginning, I was able to get source code, not to the software itself, but to the modules it used to perform task. I would find faults in its logic that if I could change, I would. As a result of this inclination, I would eventually just read the source code and try to determine what everything was trying to do. This would be my first introduction to this vast world.
 
 It was a daunting task because, at the time, I had no prior knowledge to it. I began my task by simply looking at the various parts of the code and figuring out what each thing did. This was a time consuming task, however, in the end I was able to make my way through it, more or less, through trial, error and research. I was able to implement my knowledge, successfully, as the things I wanted to do focused more on simple logic than anything complex. The language that I was experimenting with at that time was C#.
