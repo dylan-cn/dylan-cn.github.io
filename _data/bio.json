@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Dylan Nakamoto",
-    "label": "Student",
+    "label": "Shidler Undergraduate",
     "picture": "https://dylan-cn.github.io/images/portrait_sq.jpg",
     "email": "dylancn@hawaii.edu",
     "phone": "",
     "website": "",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in 2021.",
+    "summary": "I am studying for a BBA, with a focus in Management Information Systems, at the University of Hawaii. I expect to graduate in 2020.",
     "location": {
       "address": "2751 Booth Rd",
       "postalCode": "96813",
@@ -51,7 +51,6 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
         "C#",
         "Java",
       ]
@@ -67,8 +66,8 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2021)",
-      "studyType": "B.S.",
+      "area": "Management Information systems (expected Summer, 2020)",
+      "studyType": "BBA",
       "startDate": "2017-09-01",
       "endDate": "Present",
       "gpa": "",
