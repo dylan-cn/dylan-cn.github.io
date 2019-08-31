@@ -24,7 +24,7 @@
         "network": "linkedin",
         "username": "dylannakamoto",
         "url": "https://www.linkedin.com/in/dylan-nakamoto-b568b5156/"
-      },
+      }
     ]
   },
   "interests": [
@@ -44,7 +44,7 @@
         "Raspberry Pi",
         "Arduino"
       ]
-    },
+    }
   ],
   "skills": [
     {
@@ -52,14 +52,14 @@
       "level": "",
       "keywords": [
         "C#",
-        "Java",
+        "Java"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Windows",
+        "Windows"
       ]
     }
   ],
