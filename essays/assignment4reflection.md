@@ -1,3 +1,13 @@
+---
+layout: essay
+type: essay
+title: Assignment 4 Reflection
+# All dates must be YYYY-MM-DD format!
+date: 2019-12-20
+labels:
+  - Assignment4
+---
+
 1.         What was accomplished in the project as compared to what was planned?
 We were able to get many of the features that we wanted into the project. Probably the most important thing that did not get added was the ability to modify existing products. However, this functionality is not necessarily needed as products can just be deleted and added again. The website was designed to be very minimalist as that was mentioned from the client, so not too much went into styling, such as background images, etc.
  
